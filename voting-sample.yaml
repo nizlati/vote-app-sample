@@ -83,12 +83,11 @@ spec:
         - name: REDIS
           value: azure-vote-back
         - name: TITLE
-          value: Favorite book
+          value: Book
         - name: VOTE1VALUE
           value: One
         - name: VOTE2VALUE
-          value: Two
-          
+          value: Two 
 ---
 apiVersion: v1
 kind: Service
