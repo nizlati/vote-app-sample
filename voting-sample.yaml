@@ -85,7 +85,7 @@ spec:
         - name: TITLE
           value: "Book"
         - name: VOTE1VALUE
-          value: "One"
+          value: "Three"
         - name: VOTE2VALUE
           value: "Two"
 ---
