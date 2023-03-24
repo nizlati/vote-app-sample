@@ -79,15 +79,15 @@ spec:
             memory: 256Mi
         ports:
         - containerPort: 80
-         env:
+        env:
         - name: REDIS
-          value: azure-vote-back
+          value: "azure-vote-back"
         - name: TITLE
-          value: Book
+          value: "Book"
         - name: VOTE1VALUE
-          value: One
+          value: "One"
         - name: VOTE2VALUE
-          value: Two 
+          value: "Two"
 ---
 apiVersion: v1
 kind: Service
