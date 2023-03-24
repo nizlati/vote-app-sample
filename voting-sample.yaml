@@ -85,9 +85,9 @@ spec:
         - name: TITLE
           value: "Book"
         - name: VOTE1VALUE
-          value: "Three"
+          value: "One"
         - name: VOTE2VALUE
-          value: "Four"
+          value: "Two"
 ---
 apiVersion: v1
 kind: Service
